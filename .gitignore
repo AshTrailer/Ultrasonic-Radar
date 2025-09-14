@@ -1,0 +1,144 @@
+# =========================
+# Prerequisites
+# =========================
+*.d
+
+# =========================
+# Object files
+# =========================
+*.o
+*.ko
+*.obj
+*.elf
+*.axf   # STM32
+
+# =========================
+# Linker output
+# =========================
+*.ilk
+*.map
+*.exp
+*.lst
+*.dep
+
+# =========================
+# Precompiled Headers
+# =========================
+*.gch
+*.pch
+
+# =========================
+# Libraries
+# =========================
+*.lib
+*.a
+*.la
+*.lo
+
+# =========================
+# Shared objects (DLLs, .so, .dylib)
+# =========================
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# =========================
+# Executables
+# =========================
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+*.eep
+
+# =========================
+# Debug files
+# =========================
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.dwo
+*.log
+
+# =========================
+# Kernel Module Compile Results
+# =========================
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Visual Studio Code
+# =========================
+.vscode/
+.vscode-server/
+*.code-workspace
+.history/
+*.lock
+
+# =========================
+# WSL / Linux cache
+# =========================
+*.swp
+*~
+.cache/
+.local/
+.bash_history
+
+# =========================
+# Arduino
+# =========================
+*.hex
+*.bin
+*.elf
+*.eep
+*.o
+*.d
+
+# =========================
+# STM32 / CubeIDE / Keil / IAR
+# =========================
+*.cproject
+*.project
+*.launch
+*.settings/
+*.bak
+
+# =========================
+# Verilog / FPGA simulation outputs
+# =========================
+*.vcd
+*.sdf
+*.jou
+*.rpt
+*.bak
+
+# debug information files
+*.dwo
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.cache
